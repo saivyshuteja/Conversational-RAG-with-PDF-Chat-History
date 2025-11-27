@@ -1,0 +1,28 @@
+# Core LangChain + integrators
+langchain==1.0.7
+langchain-core==1.0.5
+langchain-community==0.4.1
+langchain-groq
+
+# Ollama (python client) + LangChain Ollama support
+ollama
+
+# Streamlit and env loader
+streamlit==1.51.0
+python-dotenv
+
+# PDF loader
+pypdf
+
+# Text splitting utilities (LangChain splitters)
+langchain-text-splitters
+
+# Vector DB: FAISS (CPU). If this fails on Windows, see notes below.
+faiss-cpu
+
+# Optional / helpful extras
+langchain-chroma
+
+arxiv
+
+wikipedia
